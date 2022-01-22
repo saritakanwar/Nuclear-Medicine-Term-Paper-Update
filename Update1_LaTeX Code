@@ -1,1 +1,26 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{biblatex} %Imports biblatex package
+\addbibresource{ref.bib} %Import the bibliography
+\title{\textbf{Medical Applications and Biological Effects of Radiation}}
+\author{\textit{Sarita Kanwar }}
+\date{21/01/2022}
 
+\begin{document}
+
+\maketitle
+
+This term paper will highlight the following aspects:
+\section{Source of radiation}
+\section{Radiation exposure}
+\section{Dosimetry}
+\section{Biological effects of radiation}
+\section{Radiation protection}
+\section{Medical application of radiation}
+The harmful effects caused to human being and other living beings due to their exposure to radiation is called as biological effects of radiation. There can be three radiation effects on cell: the radiation may pass through the cell without doing any damage to cell, the radiation may damage the cell so that the cell not only form to repair itself but reproduces itself in the damaged form(biological response), the radiation may cause so much damage so that cell dies.\cite{zakariya2014benefits}
+\par{Biological Effects of Radiation can be broken into two groups according to how the responses (symptoms or effects) relate to dose (or amount of radiation received): the first group of biological effects are stochastic effects, the second group of biological effects are deterministic effects.\cite{kamiya2015long}}
+\par{In this term paper I will describe about various sources of radiation, how much radiation dose affects the body in which way, medical applications of radiation and how the damage produced by ionizing radiation in biological molecules affects the body cells, what protection should be taken to protect the body.}  
+
+\par{I have selected this topic to gain knowledge how useful are these radiations used in medical imaging system, how does this technology affects the human life as now this field is becoming popular and what researches are going on this topic. I also want to know the advantages and disadvantages of radiation and which kind of radiations can be used.}
+
+\end{document}
