@@ -1,0 +1,68 @@
+Download
+
+Source
+
+PDF
+Actions
+   Copy Project
+   Word Count
+Sync
+   Dropbox
+   Git
+   GitHub
+Settings
+Compiler
+
+pdfLaTeX
+TeX Live version
+
+2021
+Main document
+
+main.tex
+Spell check
+
+English
+Auto-complete
+
+On
+Auto-close Brackets
+
+On
+Code check
+
+On
+Editor theme
+
+textmate
+Overall theme
+
+Default
+Keybindings
+
+None
+Font Size
+
+12px
+Font Family
+
+Lucida / Source Code Pro
+Line Height
+
+Normal
+PDF Viewer
+
+Overleaf
+Help
+   Show Hotkeys
+   Documentation
+   Contact Us
+Back to your projects
+update 2
+
+File outline
+Editor mode.
+
+ 
+\printbibliography
+\end{document}
