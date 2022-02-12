@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{biblatex} %Imports biblatex package
+\addbibresource{ref.bib} %Import the bibliography
+\title{Bibliography management: \texttt{biblatex} package}
+\author{Share\LaTeX}
+\date{ }
+
+\title{\textbf{Medical Applications and Biological Effects of Radiation}}
+\author{\textit{Sarita Kanwar }}
+\date{21/01/2022}
+
+\begin{document}
+
+\maketitle
+
+\section*{Table of Contents}
+
+\begin{enumerate}
+    \item Abstract
+    \item Introduction
+    \item Sources of Radiation
+\end{enumerate}
+
+\section*{Abstract}
+With the development of radio-therapeutic oncology, computer technology and medical imaging technology, radiation therapy has made great progress\cite{wang2018biological}. Radiation's benefits were initially realised in the use of X-rays for medical diagnosis, and then later with the discovery of radiation and radioactivity. The desire to take advantage of the medical benefits led to a reasonable assessment of the hazards and resulting consequences. Only the most evident effects of large doses of radiation, such as radiation burns, were noticed in those early days, and protection efforts were concentrated on preventing them, mostly for practitioners rather than patients\cite{flakus1982detecting}.
+In this term paper we will be discussing about the various sources of radiation, medical applications of radiation and how the damage produced by ionizing radiation in biological molecules affects the body cells.
+
+\section*{Introduction}
+Modern techniques in nuclear medicine have proven to be powerful tools for diagnosis and treatment of an increasing number of diseases\cite{signore2010molecular}. However, they all add to the patient's radiation exposure. As a result, constant attention should be paid to reducing the radiation dose involved. The risks associated with a specific nuclear procedure should be known in order to weigh its advantage against its disadvantages\cite{cerqueira2010recommendations}. These risks depend on the dose and dose and dose-effect relationship. The discipline involved in dose calculation is called dosimetry. The combination of the results of dosimetry and dose-effect relation allows the estimation of the risk associated with a certain nuclear procedure\cite{de1993biological}.
+\par People would appreciate that radiation has quiet and useful applications in our daily lives once they understand it. New difficulties in terms of worldwide levels of radiation exposure continue to emerge, new biological information on the impacts of radiation exposure is becoming available\cite{zakariya2014benefits}.
+
+\section*{Sources of Radiation}
+As a part of living on earth, people are exposed to radiation from various sources every day. Radiation is the energy that travels through
+space, in the form of particles or electromagnetic waves such as radio, microwaves, infra-red, visible light, ultraviolet, alpha particles, X-rays and Gamma-rays etc\cite{zakariya2014benefits}. According to \cite{sherer2013radiation} these sources of ionizing
+radiation could be from natural background radiation such as radon and thoron, cosmic and terrestrial radiation, or man-made radiation such as those from xray or nuclear medicine (NM) procedures.
+\subsection*{Natural Radiation}
+The assessment of the natural radiation doses from natural sources in human is of particular importance  natural radiation is the largest contributor to the collective dose of world population\cite{united2000exposures}. The natural radiation sources are classified into:
+\begin{itemize}
+    \item External Irradiation
+    \item Internal Irradiation
+\end{itemize}
+\subsubsection*{External Irradiation}
+\begin{enumerate}
+    \item \textbf{Cosmic Radiation:}\par This is simply the radiation from the sun and stars. Flying based at high altitudes much frequently and for long duration will attract extra cosmic radiation exposure\cite{hapgood2011towards}.
+    \item \textbf{Terrestrial Radiation:}\par This is the radiation due to the presence of radioactive materials such as uranium, thorium, and radium that exist naturally in soil, water and rocks. Essentially air contains radon, which is responsible for the dose from natural background sources, and all organic matter (plant and animal) also contains radioactive carbon and potassium\cite{kovler2017basic}. However, the dose from these sources varies in different parts of the world, but locations with higher soil concentrations of uranium and thorium generally have higher doses. Therefore, the background radiation levels vary in certain areas due to geological differences and sometimes the exposure can be more than 200 times higher than the global average\cite{tzortzis2003gamma}.
+\end{enumerate}
+\subsubsection*{Internal Radiation}
+From birth to death, this sort of radiation is caused by the internal composition of human bodies, which includes radioactive potassium-40 and carbon-14\cite{ford2004radiation}.
+\begin{enumerate}
+    \item \textbf{Artificial (Man-made) Radiation:}\par The following are examples of man-made radiation:
+    \begin{itemize}
+        \item Medical techniques such as diagnostic x-rays, nuclear medicine, and radiation therapy expose people to radiation. Consumer products, such as building materials, combustible fuels (gas and coal), television, and cell phones, are also included in this category.
+        \item Radiation from nuclear sites, which account for less than 0.01 percent of the average annual dose, as well as exposure from radioactive materials shipment and residual fallout from nuclear weapons testing and accidents like Chernobyl.
+    \end{itemize}
+    
+\end{enumerate}
+\printbibliography
+\end{document}
