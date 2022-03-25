@@ -1,0 +1,151 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multirow}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{biblatex} %Imports biblatex package
+\addbibresource{ref.bib} %Import the bibliography
+\title{Bibliography management: \texttt{biblatex} package}
+\author{Share\LaTeX}
+\date{ }
+
+\title{\textbf{Medical Applications and Biological Effects of Radiation}}
+\author{\textit{Sarita Kanwar}}
+\date{21/01/2022}
+
+\begin{document}
+
+\maketitle
+
+\section*{Table of Contents}
+
+\begin{enumerate}
+    \item Abstract
+    \item Introduction
+    \item Sources of Radiation
+    \item Biological Effects of Radiation
+    \item Dosimetry
+\end{enumerate}
+
+\section*{Abstract}
+With the development of radio-therapeutic oncology, computer technology and medical imaging technology, radiation therapy has made great progress\cite{wang2018biological}. Radiation's benefits were initially realised in the use of X-rays for medical diagnosis, and then later with the discovery of radiation and radioactivity. The desire to take advantage of the medical benefits led to a reasonable assessment of the hazards and resulting consequences. Only the most evident effects of large doses of radiation, such as radiation burns, were noticed in those early days, and protection efforts were concentrated on preventing them, mostly for practitioners rather than patients\cite{flakus1982detecting}.
+In this term paper we will be discussing about the various sources of radiation, medical applications of radiation and how the damage produced by ionizing radiation in biological molecules affects the body cells.
+
+\section*{Introduction}
+Modern techniques in nuclear medicine have proven to be powerful tools for diagnosis and treatment of an increasing number of diseases\cite{signore2010molecular}. However, they all add to the patient's radiation exposure. As a result, constant attention should be paid to reducing the radiation dose involved. The risks associated with a specific nuclear procedure should be known in order to weigh its advantage against its disadvantages\cite{cerqueira2010recommendations}. These risks depend on the dose and dose and dose-effect relationship. The discipline involved in dose calculation is called dosimetry. The combination of the results of dosimetry and dose-effect relation allows the estimation of the risk associated with a certain nuclear procedure\cite{de1993biological}.
+\par People would appreciate that radiation has quiet and useful applications in our daily lives once they understand it. New difficulties in terms of worldwide levels of radiation exposure continue to emerge, new biological information on the impacts of radiation exposure is becoming available\cite{zakariya2014benefits}.
+
+\section*{Sources of Radiation}
+As a part of living on earth, people are exposed to radiation from various sources every day. Radiation is the energy that travels through
+space, in the form of particles or electromagnetic waves such as radio, microwaves, infra-red, visible light, ultraviolet, alpha particles, X-rays and Gamma-rays etc\cite{zakariya2014benefits}. According to \cite{sherer2013radiation} these sources of ionizing
+radiation could be from natural background radiation such as radon and thoron, cosmic and terrestrial radiation, or man-made radiation such as those from xray or nuclear medicine (NM) procedures.
+\subsection*{Natural Radiation}
+The assessment of the natural radiation doses from natural sources in human is of particular importance  natural radiation is the largest contributor to the collective dose of world population\cite{united2000exposures}. The natural radiation sources are classified into:
+\begin{itemize}
+    \item External Irradiation
+    \item Internal Irradiation
+\end{itemize}
+\subsubsection*{External Irradiation}
+\begin{enumerate}
+    \item \textbf{Cosmic Radiation:}\par This is simply the radiation from the sun and stars. Flying based at high altitudes much frequently and for long duration will attract extra cosmic radiation exposure\cite{hapgood2011towards}.
+    \item \textbf{Terrestrial Radiation:}\par This is the radiation due to the presence of radioactive materials such as uranium, thorium, and radium that exist naturally in soil, water and rocks. Essentially air contains radon, which is responsible for the dose from natural background sources, and all organic matter (plant and animal) also contains radioactive carbon and potassium\cite{kovler2017basic}. However, the dose from these sources varies in different parts of the world, but locations with higher soil concentrations of uranium and thorium generally have higher doses. Therefore, the background radiation levels vary in certain areas due to geological differences and sometimes the exposure can be more than 200 times higher than the global average\cite{tzortzis2003gamma}.
+\end{enumerate}
+\subsubsection*{Internal Irradiation}
+From birth to death, this sort of radiation is caused by the internal composition of human bodies, which includes radioactive potassium-40 and carbon-14\cite{ford2004radiation}.
+\begin{enumerate}
+    \item \textbf{Artificial (Man-made) Radiation:}\par The following are examples of man-made radiation:
+    \begin{itemize}
+        \item Medical techniques such as diagnostic x-rays, nuclear medicine, and radiation therapy expose people to radiation. Consumer products, such as building materials, combustible fuels (gas and coal), television, and cell phones, are also included in this category.
+        \item Radiation from nuclear sites, which account for less than 0.01 percent of the average annual dose, as well as exposure from radioactive materials shipment and residual fallout from nuclear weapons testing and accidents like Chernobyl.
+    \end{itemize}
+ \end{enumerate}
+
+ \section*{Biological Effects of Radiation}
+ Biological Effects of Radiation can be broken into two groups according to how the responses (symptoms or effects) relate to dose (or amount of radiation received)
+ \begin{enumerate}
+     \item The First Group of biological effects are Stochastic Effects
+     \item The Second Group of biological effects are Deterministic Effects
+ \end{enumerate}
+The first category consists of exposure to low doses of radiation over an extended period of time producing chronic or long term effects (Stochastic) while the second category represents exposure to high doses of radiation over short periods of time producing acute or short term effects (Deterministic). The high doses tend to kill cells, while low doses tend to damage or change them. High doses can kill so many cells that will lead to damage of tissues and organs. This may result to a rapid whole body response often called the Acute Radiation Syndrome (ARS)\cite{zakariya2014benefits}. The effect of radiation is dependent on many factors including:
+\begin{itemize}
+    \item The type of radiation (alpha, beta or gamma)
+    \item The amount received
+    \item The rate at which it is received
+    \item Which part of the body is exposed
+    \item Whether the exposure is chronic (regular, low doses) or acute (short time, high dose)
+    \item The age of the irradiated person.
+\end{itemize}
+ 
+ \section*{Dosimetry} 
+The science of "dosimetry" is the measurement, calculation, or combination of measurement and calculation used to calculate radiation exposure. Radiation dosage is also known as "absorbed dose," which is defined as the quantity of radiation energy deposited in tissue divided by the tissue's mass. The most important physical component that impacts the response of tumours and the rest of the body to radiation is the absorbed dosage\cite{kirby1992uncertainty}. When a subject is exposed to radiation, dosimetry provides a method of calculating parameter for risk estimation. Thereby two different situations have to be distinguished: irradiation from an external source and irradiation from activity present inside the body. These two situations require a different approach.
+\newline\textbf{External Source}
+\newline The following aspects are involved in these calculations:
+\begin{enumerate}
+    \item the strength or activity of the radioactive source;
+    \item the exposure of the subject to such radiation;
+    \item the dose absorbed by the different tissues;
+    \item the biological effectiveness of the type of radiation;
+    \item the weighting of the seperate organs
+\end{enumerate}
+These items will all be discussed subsequently in this section. Since the introduction of the Systeme internationale (SI) as the basis for quantification of scientific measurements, the units for most radiation quantities have been changed. The relation between those SI units and their corresponding conventional is indicated in Table 1
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{table1.png}
+    \caption{Comparison of common radiation terms in SI and conventional units}
+    \label{fig:my_label}
+\end{figure}
+
+\begin{itemize}
+    \item Activity: The measure of the activity of a radioactive source is the number of disintegration per second. For many years this activity was expressed in Curie (Ci), defined as activity of one gram of radium. Since the introduction of the SI-units, the unit for radioactivity is Becquerel (Bq). It is defined as one integration per second.
+    \item Exposure: The exposure of a subject to radiation depends on the intensity of radiation where that subject is. It is related to the source strength, the distance between the source and the subject, the type and energy of radiation and absorbing properties of the material between the source and subject. The unit for exposure is Roentgen (R) or Coulombs per kilogram of air (C.kg-1).
+    \item Absorbed Dose: The absorbed dose (D) is represented by the amount of energy imparted to matter. It is proportional to the exposure and is dependent on the type of matter and the properties of radiation. The SI-units of absorbed dose is the Gray (Gy) corresponding to J.kg-1. The absorbed dose is usually calculated seperately for various organs.
+    \item Dose Equivalent: The effect of radiation is not only determined by the absorbed dose but also by the biological effectiveness of the radiation, given as the quality-factor Q. When this has been taken into account, the dose equivalent is obtained. The SI-unit of dose equivalent is Sievert (Sv). The biological effect of a given dose equivalent is independent of the type of the radiation\cite{}. 
+    
+\end{itemize}\break  
+\textbf{Internal Source}\newline
+Irradiation from activity inside the body will always be in-homogeneous. The dose equivalent, therefore, should be calculated separately for each organ. It depends on
+\begin{enumerate}
+    \item the number  of disintegration inside this specific organ
+    \item the effective dose equivalent per disintegration
+\end{enumerate}
+
+\begin{enumerate}
+    \item the number of disintegrations: The resorption, the distribution and the effective half-time (T1/2eff) of a radionuclide (radiopharmaceutical) within a specific organ, determine the number of disintegrations inside this organ. The resorption of radionuclide depends on its chemical form and the way the radionuclide is administered. This administration may be performed, for example orally and intravenously. The distribution is determined by the chemical properties of the unbound radionuclide. Unbound 59Fe, for example, will be incorporated in precursor cells within the bone marrow, whereas 123I will be accumulated within the thyroid gland. The radionuclide may also be bound to specific cells or other organical structures. When 111In is labeled to platelets, the majority of administered 111In will be sequestered within the spleen and the liver, whereas leucocytes labeled with 111In will be localized at the site(s) of infection(s) or abscess(s). The T1/2eff is the resultant of the nuclear half-life and the biological half-life of radionuclide within this organ. The nuclear half-life is fixed but the biological half-life is determined by the rate of clearance of the radionuclide by the organ involved. This will be influenced by the rate of metabolism of the body in general and by possible diseases of a specific organ.
+    \item the effective dose equivalents per disintegration: The effective dose equivalent per disintegration depends on the amount of energy imparted to a certain organ abmnd the biological effectiveness of the radiation. The former is particularly determined by the size of the organ. The biological effectiveness is given by the quality factor, Q, as explained above. The use of an alpha-emitter, for example, leads to a high effective dose equivalent per disintegration.
+    Subsequently, the total EDE can be estimated from the dose equivalent for each seperate organ on the analogy of the calculations for inhomogeneous external irradiation. In general, a low T1/2eff and low energy per disintegrations will result in the smallest radiotoxicity.
+
+\end{enumerate}
+
+\subsection*{Why it is important?}
+Absorbed dose determines the extent to which tumors and normal tissues are affected by radiation.  The higher the absorbed dose to tumors, the more cells will be killed by radiation and the greater the likelihood of a cure.  However, the higher the absorbed dose to normal tissues, the more likely and severe may be the undesirable toxic side-effects of the radiation.  An important advantage of radiopharmaceutical therapy is its ability to irradiate and effectively treat tumors throughout the body; at the same time, some irradiation of normal organs is unavoidable.  Therefore, the role of radiation dosimetry in targeted radionuclide therapy is to determine specifically, for each patient, the administered amount of the radiopharmaceutical that will most effectively treat the patient’s disease while avoiding absorbed doses that damage normal tissues.  Individualized radiation dosimetry is critical for planning the most effective and safest targeted radionuclide therapy for each patient.
+ 
+ \subsection*{Radiotoxicity}
+Depending on the T1/2eff of a radionuclide and the type of emitted radiation the EDE or different radionuclides per Bq administered extends overv an interval of five orders of magnitude, from 0.00015 to 20 mSv.MBq-1. This resulted in the subdivision of radionuclides into four categories. The radionuclides most frequently administered are 51Cr, 55Fe, 57Co,58Co, 59Fe,67Ga, 99mTc, 111In, 123I. 125I, 131I, 133Xe, 201Tl. In Table they are classified in the categories mentioned (No radionuclides are generally applied from category 1). The maximum dose allowed for the radionuclides from different categories is also given.
+\textbf{Table 3:}
+Several radionuclides classified by their radioactivity
+
+\begin{center}
+\begin{tabular}{ |c|c|c|c| } 
+\hline
+Group & Example allowed (Bq) & Maximum Activity \\
+\hline
+2 & 114mIn,125I,131I & 5.10-4 \\ 
+3& 55Fe,57Co,58Co,59Fe,67Ga,111In,123I & 5.10-5 \\ 
+4& 51Cr,99mTc,133Xe,201Tl & 5.10-6 \\ 
+\hline
+\end{tabular}
+\end{center}
+
+\subsection*{Biological Effects and Dose-Effect relation}
+In 1901, Becuerel discovered that radiation could cause a red and blistered skin. Since then, many somatic effects have been associated with the exposure to radioactivity. The main examples of such potential harms are leukemia, solid tumours and mental retardation. Besides somatic radiation effects there are hereditary effects. It is assumed that all biological effects have a different dose-effect relation.
+Irradiation by atomic weapons, industrial pollution and medical procedures from the main sources from which the information about dose-effect relations has been obtained. With calamities, the exposure to radioactivity generally leads to a high absorbed dose. The biological effects that occur provide information about the dose-effect relation at high dose. This may not just be extrapolated to low dose effects. Studies performed among people who received a low dose, for example those living in areas with increased natural radiation levels, have never demonstrated measurable biological effects, partly because of the high natural incidence of most radiation-associated diseases.
+
+\subsection*{Biological Effects}
+The somatic effects that have been ascribed to radioactivity are various types of cancers such as leukemia, lymphomas, solid tumours like breast cancer and colon cancer, mental retardation, growth retardation, impaired fertility, skin cancer, bone marrow depression, functional impairment of the central nervous system and cataract. Radiation may also cause chromosome aberrations which will be ex pressed in the descendants of the exposed subjects; they are described as the hereditary effects.
+
+Fatal cancers must be differentiated from non-fatal cancers with regard to the effects of radiation. The risk factors for all cancers are of course higher then those for fatal cancers. The mortality rate is about 5-10\% for thyroid cancer, 40-50\% for breast cancer and 90-100\% for lung cancer. The incidence of all cancers after exposure of the general population comes to about three times the incidence of fatal cancers.
+
+In 1977, the effects of radiation were divided into stochastic (random) effects and non-stochastic (non-random) effects. Stochastic effects are defined as having no threshold in dose and no change in severity with dose. Only the incidence is a function of dose. Non-stochastic effects do have a threshold and change in severity with dose.
+
+\printbibliography
+\end{document}
